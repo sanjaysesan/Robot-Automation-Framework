@@ -7,7 +7,11 @@ Resource   ../PageObjects/LoginPage.robot
 
 *** Keywords ***
 Open the browser and go to OrangeHRM
-   Create WebDriver    ${browser}
+   ${options}=    Evaluate    sys.modules['selenium.webdriver'].EdgeOptions()    sys
+   Call Method    ${options}    add_argument    --headless
+   Call Method    ${options}    add_argument    --disable-gpu
+   Call Method    ${options}    add_argument    --no-sandbox
+   Create WebDriver    ${browser}    options=${options}
    Maximize Browser Window
    Set Selenium Speed    0.5 seconds
    Go To           ${url}
@@ -20,7 +24,11 @@ wait until element is visible in the page
     Wait Until Element is Visible            ${locator}        timeout=25s
 
 Open the OrangeHRM application and login with valid credentials
-    Create Webdriver    ${browser}
+    ${options}=    Evaluate    sys.modules['selenium.webdriver'].EdgeOptions()    sys
+    Call Method    ${options}    add_argument    --headless
+    Call Method    ${options}    add_argument    --disable-gpu
+    Call Method    ${options}    add_argument    --no-sandbox
+    Create Webdriver    ${browser}        options=${options}
     Maximize Browser Window
     Set Selenium Speed    0.5 seconds
     Go To    ${url}

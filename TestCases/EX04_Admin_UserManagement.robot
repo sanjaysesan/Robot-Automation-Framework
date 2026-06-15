@@ -11,7 +11,7 @@ Add and Verify a System User
     AdminPage.open add user form
     AdminPage.select the value from the dropdown    ${userroledd-loc}    ${userrolefulldd-loc}    ${userrolevalue-loc}
     AdminPage.verify the dropdown selection    ${userrolevalueselected-loc}    ESS
-    AdminPage.search the value from the employee name field    ${employeenamedd-loc}    John    ${empoyeesuggetsion-loc}    ${employeename-loc}
+    AdminPage.search the value from the employee name field    ${employeenamedd-loc}    Thomas    ${empoyeesuggetsion-loc}    ${employeename-loc}
     AdminPage.select the value from the dropdown    ${statusdd-loc}    ${statusfulldd-loc}    ${statusvalue-loc}
     AdminPage.verify the dropdown selection     ${statusvalueselected-loc}    Enabled
     AdminPage.fill Username, Password, Confirm Password and click Save
