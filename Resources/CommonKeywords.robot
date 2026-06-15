@@ -28,7 +28,7 @@ Open the OrangeHRM application and login with valid credentials
     Call Method    ${options}    add_argument    --headless
     Call Method    ${options}    add_argument    --disable-gpu
     Call Method    ${options}    add_argument    --no-sandbox
-    Create Webdriver    ${browser}        options=${options}
+    Create Webdriver    Edge        options=${options}
     Maximize Browser Window
     Set Selenium Speed    0.5 seconds
     Go To    ${url}
