@@ -1,0 +1,16 @@
+--test TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password[?]' link
+--variable CALLER_ID:23ba2db82e074314ae3d3468ea9e5072
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:2
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:6
+--variable PABOTLASTLEVEL:TestCases.EX01 Login Resources
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\6
+--consolecolors off
+--consolemarkers off
+TestCases/

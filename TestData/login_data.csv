@@ -1,0 +1,5 @@
+Test_Case_name,${username},${password},expected_message
+invalid username,Admin1,admin123,Invalid credentials
+invalid password,Admin,admin1234,Invalid credentials
+both invalid,Admin1,admin1234,Invalid credentials
+empty username,,,Required

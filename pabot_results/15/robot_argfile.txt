@@ -1,0 +1,17 @@
+--suite TestCases.EX02 Login DataDriver
+--variable DYNAMICTESTS:TestCases.EX02 Login DataDriver.Login with the  and 
+--variable CALLER_ID:2804dc848b344852a506f34a30bffabd
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:7
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:15
+--variable PABOTLASTLEVEL:TestCases.EX02 Login DataDriver.PABOT_noend
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\15
+--consolecolors off
+--consolemarkers off
+TestCases/

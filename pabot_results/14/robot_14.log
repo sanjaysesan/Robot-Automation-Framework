@@ -1,0 +1,37 @@
+2026-06-15 19:31:05.762702 ==============================================================================
+2026-06-15 19:31:05.851685 TestCases
+2026-06-15 19:31:05.851797 ==============================================================================
+2026-06-15 19:31:06.291300 TestCases.EX02 Login DataDriver :: This is the test case file
+2026-06-15 19:31:06.315936 ==============================================================================
+2026-06-15 19:31:38.633627 Login with the Admin1 and admin1234                                   | FAIL |
+2026-06-15 19:31:38.647377 Setup failed:
+2026-06-15 19:31:38.647412 WebDriverException: Message: unknown error: unable to discover open window in chrome
+2026-06-15 19:31:38.647437   (Session info: MicrosoftEdge=149.0.4022.69)
+2026-06-15 19:31:38.647460 Stacktrace:
+2026-06-15 19:31:38.647482 	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+2026-06-15 19:31:38.649091 	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+2026-06-15 19:31:38.649120 	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+2026-06-15 19:31:38.649134 	msedgedriver!(No symbol) [0x7ff62b69758c]
+2026-06-15 19:31:38.649146 	msedgedriver!(No symbol) [0x7ff62b7292e8]
+2026-06-15 19:31:38.649157 	msedgedriver!(No symbol) [0x7ff62b728b76]
+2026-06-15 19:31:38.649167 	msedgedriver!(No symbol) [0x7ff62b6f485c]
+2026-06-15 19:31:38.649177 	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+2026-06-15 19:31:38.649188 	msedgedriver!(No symbol) [0x7ff62b6f4683]
+2026-06-15 19:31:38.649198 	msedgedriver!(No symbol) [0x7ff62b942ca1]
+2026-06-15 19:31:38.649209 	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+2026-06-15 19:31:38.649223 	msedgedriver!(No symbol) [0x7ff62b94fe85]
+2026-06-15 19:31:38.649237 	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+2026-06-15 19:31:38.649248 	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+2026-06-15 19:31:38.649264 	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+2026-06-15 19:31:38.649282 	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+2026-06-15 19:31:38.649309 	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+2026-06-15 19:31:38.649321 	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+2026-06-15 19:31:38.649332 	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+2026-06-15 19:31:38.649342 ------------------------------------------------------------------------------
+2026-06-15 19:31:38.649354 TestCases.EX02 Login DataDriver :: This is the test case file         | FAIL |
+2026-06-15 19:31:38.649364 1 test, 0 passed, 1 failed
+2026-06-15 19:31:38.649374 ==============================================================================
+2026-06-15 19:31:38.649385 TestCases                                                             | FAIL |
+2026-06-15 19:31:38.649395 1 test, 0 passed, 1 failed
+2026-06-15 19:31:38.649405 ==============================================================================
+2026-06-15 19:31:38.649416 Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\14\output.xml

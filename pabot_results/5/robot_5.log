@@ -1,0 +1,19 @@
+2026-06-15 19:20:53.029460 ==============================================================================
+2026-06-15 19:20:53.035663 TestCases
+2026-06-15 19:20:53.035707 ==============================================================================
+2026-06-15 19:20:55.972275 TestCases.EX01 Login Resources :: This is the test case file
+2026-06-15 19:20:56.003232 ==============================================================================
+2026-06-15 19:26:26.346382 [ WARN ] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=62004): Read timed out. (read timeout=120)")': /session/c290677f5bb243b56053201ddc905bef/screenshot
+2026-06-15 19:28:26.392418 [ WARN ] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=62004): Read timed out. (read timeout=120)")': /session/c290677f5bb243b56053201ddc905bef/screenshot
+2026-06-15 19:30:16.313952 [ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: 'NoneType' object has no attribute 'encode'
+2026-06-15 19:30:42.408519 Verification of Login with empty fields (click Login without typing)  | FAIL |
+2026-06-15 19:30:42.457936 Setup failed:
+2026-06-15 19:30:42.457998 ReadTimeoutError: HTTPConnectionPool(host='localhost', port=62004): Read timed out. (read timeout=120)
+2026-06-15 19:30:42.458037 ------------------------------------------------------------------------------
+2026-06-15 19:30:42.458073 TestCases.EX01 Login Resources :: This is the test case file          | FAIL |
+2026-06-15 19:30:42.458970 1 test, 0 passed, 1 failed
+2026-06-15 19:30:42.458998 ==============================================================================
+2026-06-15 19:30:42.459019 TestCases                                                             | FAIL |
+2026-06-15 19:30:42.459038 1 test, 0 passed, 1 failed
+2026-06-15 19:30:42.459059 ==============================================================================
+2026-06-15 19:30:42.579853 Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\5\output.xml

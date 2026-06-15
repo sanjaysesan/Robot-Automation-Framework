@@ -1,0 +1,16 @@
+--test TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing)
+--variable CALLER_ID:e9503776f9ee4627a112d2993daefa7b
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:5
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:5
+--variable PABOTLASTLEVEL:TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing)
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\5
+--consolecolors off
+--consolemarkers off
+TestCases/

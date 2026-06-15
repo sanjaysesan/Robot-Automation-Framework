@@ -1,0 +1,16 @@
+--test TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password)
+--variable CALLER_ID:019235a9291d4cd0a9e530685dc57ac9
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:3
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:3
+--variable PABOTLASTLEVEL:TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password)
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\3
+--consolecolors off
+--consolemarkers off
+TestCases/

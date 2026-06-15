@@ -1,0 +1,20 @@
+2026-06-15 19:20:53.029346 ==============================================================================
+2026-06-15 19:20:53.035328 TestCases
+2026-06-15 19:20:53.035842 ==============================================================================
+2026-06-15 19:20:55.969454 TestCases.EX01 Login Resources :: This is the test case file
+2026-06-15 19:20:56.000727 ==============================================================================
+2026-06-15 19:26:26.392890 [ WARN ] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=62002): Read timed out. (read timeout=120)")': /session/7f6364476941b7202d6304b6c1be0f2c/screenshot
+2026-06-15 19:28:26.407387 [ WARN ] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=62002): Read timed out. (read timeout=120)")': /session/7f6364476941b7202d6304b6c1be0f2c/screenshot
+2026-06-15 19:30:26.430194 [ WARN ] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=62002): Read timed out. (read timeout=120)")': /session/7f6364476941b7202d6304b6c1be0f2c/screenshot
+2026-06-15 19:30:36.737546 [ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: 'NoneType' object has no attribute 'encode'
+2026-06-15 19:30:45.106192 Verification of Login with both Invalid Username and Invalid Password | FAIL |
+2026-06-15 19:30:45.118121 Setup failed:
+2026-06-15 19:30:45.118197 ReadTimeoutError: HTTPConnectionPool(host='localhost', port=62002): Read timed out. (read timeout=120)
+2026-06-15 19:30:45.118329 ------------------------------------------------------------------------------
+2026-06-15 19:30:45.118388 TestCases.EX01 Login Resources :: This is the test case file          | FAIL |
+2026-06-15 19:30:45.166244 1 test, 0 passed, 1 failed
+2026-06-15 19:30:45.166277 ==============================================================================
+2026-06-15 19:30:45.166292 TestCases                                                             | FAIL |
+2026-06-15 19:30:45.166303 1 test, 0 passed, 1 failed
+2026-06-15 19:30:45.166314 ==============================================================================
+2026-06-15 19:30:45.166325 Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\4\output.xml

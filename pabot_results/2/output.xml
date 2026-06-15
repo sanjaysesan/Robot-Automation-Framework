@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.5 on win32)" generated="2026-06-15T19:20:52.596047" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCases" source="C:\Users\SURYA\PycharmProjects\Automation\TestCases">
+<suite id="s1-s1" name="EX01 Login Resources" source="C:\Users\SURYA\PycharmProjects\Automation\TestCases\EX01_Login_Resources.robot">
+<test id="s1-s1-t1" name="Verification of Login with Invalid username" line="23">
+<kw name="Open the browser and go to OrangeHRM" owner="CommonKeywords" type="SETUP">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2026-06-15T19:20:56.212273" level="INFO">Creating an instance of the Edge WebDriver.</msg>
+<arg>${browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2026-06-15T19:20:56.024326" elapsed="90.009203"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2026-06-15T19:26:26.363180" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot</msg>
+<msg time="2026-06-15T19:28:26.438769" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot</msg>
+<msg time="2026-06-15T19:30:26.461319" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot</msg>
+<msg time="2026-06-15T19:30:40.374859" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: 'NoneType' object has no attribute 'encode'</msg>
+<msg time="2026-06-15T19:30:40.375969" level="FAIL">ReadTimeoutError: HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2026-06-15T19:22:26.033965" elapsed="494.770713">ReadTimeoutError: HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)</status>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>0.5 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="NOT RUN" start="2026-06-15T19:30:40.804999" elapsed="0.000051"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" start="2026-06-15T19:30:40.805263" elapsed="0.000060"/>
+</kw>
+<status status="FAIL" start="2026-06-15T19:20:56.002116" elapsed="584.803599">ReadTimeoutError: HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)</status>
+</kw>
+<kw name="Closing the Browser Session" owner="CommonKeywords" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-15T19:30:40.807351" elapsed="4.749727"/>
+</kw>
+<status status="PASS" start="2026-06-15T19:30:40.806775" elapsed="4.750424"/>
+</kw>
+<status status="FAIL" start="2026-06-15T19:20:56.000951" elapsed="589.556310">Setup failed:
+ReadTimeoutError: HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)</status>
+</test>
+<doc>This is the test case file</doc>
+<status status="FAIL" start="2026-06-15T19:20:53.051730" elapsed="592.506773"/>
+</suite>
+<status status="FAIL" start="2026-06-15T19:20:52.617688" elapsed="592.941781"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestCases" id="s1" pass="0" fail="1" skip="0">TestCases</stat>
+<stat name="EX01 Login Resources" id="s1-s1" pass="0" fail="1" skip="0">TestCases.EX01 Login Resources</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-06-15T19:26:26.363180" level="WARN">Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot</msg>
+<msg time="2026-06-15T19:28:26.438769" level="WARN">Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot</msg>
+<msg time="2026-06-15T19:30:26.461319" level="WARN">Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot</msg>
+<msg time="2026-06-15T19:30:40.374859" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: 'NoneType' object has no attribute 'encode'</msg>
+</errors>
+</robot>

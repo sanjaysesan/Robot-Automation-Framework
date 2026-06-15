@@ -1,0 +1,16 @@
+--test TestCases.EX03 Dashboard.Verify Dashboard After Login
+--variable CALLER_ID:5224e54315a54941b018f8223925c471
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:8
+--variable PABOTLASTLEVEL:TestCases.EX03 Dashboard
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\8
+--consolecolors off
+--consolemarkers off
+TestCases/

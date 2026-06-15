@@ -1,0 +1,16 @@
+--test TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password
+--variable CALLER_ID:67ea08fdb8ff4784bc485cbb15d5e351
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:6
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:4
+--variable PABOTLASTLEVEL:TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\4
+--consolecolors off
+--consolemarkers off
+TestCases/

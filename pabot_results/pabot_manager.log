@@ -1,0 +1,357 @@
+[INFO]    Initialized logging in .\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   Storing .pabotsuitenames file
+[DEBUG]   2026-06-15 19:20:42.849554 [PID:19632] [0] [ID:1] EXECUTING TestCases.EX01 Login Resources.Verification of Login with Valid credentials
+[DEBUG]   2026-06-15 19:20:42.849907 [PID:4848] [4] [ID:0] EXECUTING TestCases.EX01 Login Resources.Verification of Login Page Title
+[DEBUG]   2026-06-15 19:20:42.850563 [PID:18984] [3] [ID:3] EXECUTING TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password)
+[DEBUG]   2026-06-15 19:20:42.851065 [PID:19620] [7] [ID:7] EXECUTING TestCases.EX02 Login DataDriver.Login with the ${username} and ${password}
+[DEBUG]   2026-06-15 19:20:42.851472 [PID:22132] [2] [ID:6] EXECUTING TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link
+[DEBUG]   2026-06-15 19:20:42.851624 [PID:21728] [6] [ID:4] EXECUTING TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password
+[DEBUG]   2026-06-15 19:20:42.873985 [PID:15584] [5] [ID:5] EXECUTING TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing)
+[DEBUG]   2026-06-15 19:20:42.954296 [PID:22160] [1] [ID:2] EXECUTING TestCases.EX01 Login Resources.Verification of Login with Invalid username
+[DEBUG]   2026-06-15 19:20:48.296328 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 5.0s
+[DEBUG]   2026-06-15 19:20:48.296362 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 5.0s
+[DEBUG]   2026-06-15 19:20:48.296386 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 5.0s
+[DEBUG]   2026-06-15 19:20:47.870712 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 5.0s
+[DEBUG]   2026-06-15 19:20:48.296739 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 5.0s
+[DEBUG]   2026-06-15 19:20:48.296830 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 5.0s
+[DEBUG]   2026-06-15 19:20:48.296888 [PID:19620] [7] [ID:7] still running TestCases.EX02 Login DataDriver.Login with the ${username} and ${password} after 5.0s
+[DEBUG]   2026-06-15 19:20:48.397246 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 5.0s
+[INFO]    2026-06-15 19:20:57.049259 [PID:19620] [7] [ID:7] IGNORED TestCases.EX02 Login DataDriver.Login with the ${username} and ${password}
+[DEBUG]   2026-06-15 19:20:57.122135 [PID:18036] [0] [ID:8] EXECUTING TestCases.EX03 Dashboard.Verify Dashboard After Login
+[DEBUG]   2026-06-15 19:20:58.357682 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 15.0s
+[DEBUG]   2026-06-15 19:20:58.401209 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 15.0s
+[DEBUG]   2026-06-15 19:20:58.402938 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 15.0s
+[DEBUG]   2026-06-15 19:20:58.403540 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 15.0s
+[DEBUG]   2026-06-15 19:20:58.403603 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 15.0s
+[DEBUG]   2026-06-15 19:20:58.403659 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 15.0s
+[DEBUG]   2026-06-15 19:20:58.457958 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 15.0s
+[DEBUG]   2026-06-15 19:21:02.138218 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 5.0s
+[DEBUG]   2026-06-15 19:21:12.167266 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 15.0s
+[DEBUG]   2026-06-15 19:21:13.412652 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 30.0s
+[DEBUG]   2026-06-15 19:21:13.452201 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 30.0s
+[DEBUG]   2026-06-15 19:21:13.453767 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 30.0s
+[DEBUG]   2026-06-15 19:21:13.456224 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 30.0s
+[DEBUG]   2026-06-15 19:21:13.456308 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 30.0s
+[DEBUG]   2026-06-15 19:21:13.458256 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 30.0s
+[DEBUG]   2026-06-15 19:21:13.515372 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 30.0s
+[DEBUG]   2026-06-15 19:21:27.224250 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 30.0s
+[DEBUG]   2026-06-15 19:21:33.491426 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 50.0s
+[DEBUG]   2026-06-15 19:21:33.546552 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 50.0s
+[DEBUG]   2026-06-15 19:21:33.547077 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 50.0s
+[DEBUG]   2026-06-15 19:21:33.619133 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 50.0s
+[DEBUG]   2026-06-15 19:21:33.636281 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 50.0s
+[DEBUG]   2026-06-15 19:21:33.636372 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 50.0s
+[DEBUG]   2026-06-15 19:21:33.736433 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 50.0s
+[DEBUG]   2026-06-15 19:21:47.303502 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 50.0s
+[DEBUG]   2026-06-15 19:21:58.580448 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 75.0s
+[DEBUG]   2026-06-15 19:21:58.642859 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 75.0s
+[DEBUG]   2026-06-15 19:21:58.643820 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 75.0s
+[DEBUG]   2026-06-15 19:21:58.741698 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 75.0s
+[DEBUG]   2026-06-15 19:21:58.744915 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 75.0s
+[DEBUG]   2026-06-15 19:21:58.745019 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 75.0s
+[DEBUG]   2026-06-15 19:21:58.845558 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 75.0s
+[DEBUG]   2026-06-15 19:22:12.398165 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 75.0s
+[DEBUG]   2026-06-15 19:22:28.686340 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 105.0s
+[DEBUG]   2026-06-15 19:22:28.759175 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 105.0s
+[DEBUG]   2026-06-15 19:22:28.776782 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 105.0s
+[DEBUG]   2026-06-15 19:22:28.931768 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 105.0s
+[DEBUG]   2026-06-15 19:22:28.931836 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 105.0s
+[DEBUG]   2026-06-15 19:22:28.933071 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 105.0s
+[DEBUG]   2026-06-15 19:22:29.027907 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 105.0s
+[DEBUG]   2026-06-15 19:22:42.527463 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 105.0s
+[DEBUG]   2026-06-15 19:23:03.878853 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 140.0s
+[DEBUG]   2026-06-15 19:23:03.911030 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 140.0s
+[DEBUG]   2026-06-15 19:23:03.912785 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 140.0s
+[DEBUG]   2026-06-15 19:23:04.296976 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 140.0s
+[DEBUG]   2026-06-15 19:23:04.297217 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 140.0s
+[DEBUG]   2026-06-15 19:23:04.301399 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 140.0s
+[DEBUG]   2026-06-15 19:23:04.401957 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 140.0s
+[DEBUG]   2026-06-15 19:23:17.668499 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 140.0s
+[DEBUG]   2026-06-15 19:23:44.046325 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 180.0s
+[DEBUG]   2026-06-15 19:23:44.079009 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 180.0s
+[DEBUG]   2026-06-15 19:23:44.079120 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 180.0s
+[DEBUG]   2026-06-15 19:23:44.512132 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 180.0s
+[DEBUG]   2026-06-15 19:23:44.512212 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 180.0s
+[DEBUG]   2026-06-15 19:23:44.512267 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 180.0s
+[DEBUG]   2026-06-15 19:23:44.612750 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 180.0s
+[DEBUG]   2026-06-15 19:23:57.826549 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 180.0s
+[DEBUG]   2026-06-15 19:24:29.206663 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 225.0s
+[DEBUG]   2026-06-15 19:24:29.243950 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 225.0s
+[DEBUG]   2026-06-15 19:24:29.244238 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 225.0s
+[DEBUG]   2026-06-15 19:24:29.678564 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 225.0s
+[DEBUG]   2026-06-15 19:24:29.682588 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 225.0s
+[DEBUG]   2026-06-15 19:24:29.682652 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 225.0s
+[DEBUG]   2026-06-15 19:24:29.782810 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 225.0s
+[DEBUG]   2026-06-15 19:24:43.004714 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 225.0s
+[DEBUG]   2026-06-15 19:25:19.540608 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 275.0s
+[DEBUG]   2026-06-15 19:25:19.541129 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 275.0s
+[DEBUG]   2026-06-15 19:25:19.541191 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 275.0s
+[DEBUG]   2026-06-15 19:25:20.041565 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 275.0s
+[DEBUG]   2026-06-15 19:25:20.042075 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 275.0s
+[DEBUG]   2026-06-15 19:25:20.042181 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 275.0s
+[DEBUG]   2026-06-15 19:25:20.142730 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 275.0s
+[DEBUG]   2026-06-15 19:25:33.292746 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 275.0s
+[DEBUG]   2026-06-15 19:26:14.732175 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 330.0s
+[DEBUG]   2026-06-15 19:26:14.737412 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 330.0s
+[DEBUG]   2026-06-15 19:26:14.738054 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 330.0s
+[DEBUG]   2026-06-15 19:26:15.232258 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 330.0s
+[DEBUG]   2026-06-15 19:26:15.236115 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 330.0s
+[DEBUG]   2026-06-15 19:26:15.249411 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 330.0s
+[DEBUG]   2026-06-15 19:26:15.347046 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 330.0s
+[DEBUG]   2026-06-15 19:26:28.482625 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 330.0s
+[DEBUG]   2026-06-15 19:27:14.946885 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 390.0s
+[DEBUG]   2026-06-15 19:27:14.949237 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 390.0s
+[DEBUG]   2026-06-15 19:27:14.952030 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 390.0s
+[DEBUG]   2026-06-15 19:27:15.449825 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 390.0s
+[DEBUG]   2026-06-15 19:27:15.450431 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 390.0s
+[DEBUG]   2026-06-15 19:27:15.456241 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 390.0s
+[DEBUG]   2026-06-15 19:27:15.556678 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 390.0s
+[DEBUG]   2026-06-15 19:27:28.717621 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 390.0s
+[DEBUG]   2026-06-15 19:28:20.268267 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 455.0s
+[DEBUG]   2026-06-15 19:28:20.272393 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 455.0s
+[DEBUG]   2026-06-15 19:28:20.272449 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 455.0s
+[DEBUG]   2026-06-15 19:28:20.736300 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 455.0s
+[DEBUG]   2026-06-15 19:28:20.739806 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 455.0s
+[DEBUG]   2026-06-15 19:28:20.758394 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 455.0s
+[DEBUG]   2026-06-15 19:28:20.871131 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 455.0s
+[DEBUG]   2026-06-15 19:28:34.073605 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 455.0s
+[DEBUG]   2026-06-15 19:29:30.574294 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 525.0s
+[DEBUG]   2026-06-15 19:29:30.581502 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 525.0s
+[DEBUG]   2026-06-15 19:29:30.590044 [PID:21728] [6] [ID:4] still running TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password after 525.0s
+[DEBUG]   2026-06-15 19:29:30.989868 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 525.0s
+[DEBUG]   2026-06-15 19:29:30.989984 [PID:15584] [5] [ID:5] still running TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing) after 525.0s
+[DEBUG]   2026-06-15 19:29:31.092442 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 525.0s
+[DEBUG]   2026-06-15 19:29:31.188160 [PID:22160] [1] [ID:2] still running TestCases.EX01 Login Resources.Verification of Login with Invalid username after 525.0s
+[DEBUG]   2026-06-15 19:29:44.324588 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 525.0s
+[INFO]    2026-06-15 19:30:43.760940 [PID:15584] [5] [ID:5] FAILED TestCases.EX01 Login Resources.Verification of Login with empty fields (click Login without typing)
+[DEBUG]   2026-06-15 19:30:43.774356 [PID:23004] [1] [ID:9] EXECUTING TestCases.EX04 Admin UserManagement.Add and Verify a System User
+[INFO]    2026-06-15 19:30:45.827976 [PID:21728] [6] [ID:4] FAILED TestCases.EX01 Login Resources.Verification of Login with both Invalid Username and Invalid Password
+[DEBUG]   2026-06-15 19:30:45.840418 [PID:18984] [3] [ID:3] still running TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password) after 600.0s
+[DEBUG]   2026-06-15 19:30:45.842989 [PID:4848] [4] [ID:0] still running TestCases.EX01 Login Resources.Verification of Login Page Title after 600.0s
+[DEBUG]   2026-06-15 19:30:46.017068 [PID:13956] [2] [ID:10] EXECUTING TestCases.EX05 Admin UserTable.Verification of Column Header
+[DEBUG]   2026-06-15 19:30:46.332132 [PID:22132] [2] [ID:6] still running TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link after 600.0s
+[INFO]    2026-06-15 19:30:46.352449 [PID:22160] [1] [ID:2] FAILED TestCases.EX01 Login Resources.Verification of Login with Invalid username
+[DEBUG]   2026-06-15 19:30:46.402391 [PID:23948] [3] [ID:11] EXECUTING TestCases.EX06 Admin JobTitle.Verification of Adding and Verifying required fields
+[DEBUG]   2026-06-15 19:30:46.413636 [PID:19632] [0] [ID:1] still running TestCases.EX01 Login Resources.Verification of Login with Valid credentials after 600.0s
+[DEBUG]   2026-06-15 19:30:48.870042 [PID:23004] [1] [ID:9] still running TestCases.EX04 Admin UserManagement.Add and Verify a System User after 5.0s
+[INFO]    2026-06-15 19:30:50.319868 [PID:19632] [0] [ID:1] FAILED TestCases.EX01 Login Resources.Verification of Login with Valid credentials
+[DEBUG]   2026-06-15 19:30:50.332119 [PID:12736] [4] [ID:12] EXECUTING TestCases.EX02 Login DataDriver
+[DEBUG]   2026-06-15 19:30:51.110911 [PID:13956] [2] [ID:10] still running TestCases.EX05 Admin UserTable.Verification of Column Header after 5.0s
+[DEBUG]   2026-06-15 19:30:51.517467 [PID:23948] [3] [ID:11] still running TestCases.EX06 Admin JobTitle.Verification of Adding and Verifying required fields after 5.0s
+[INFO]    2026-06-15 19:30:53.672830 [PID:18984] [3] [ID:3] FAILED TestCases.EX01 Login Resources.Verification of Login with an Invalid Password (correct username, wrong password)
+[DEBUG]   2026-06-15 19:30:53.789088 [PID:17500] [5] [ID:13] EXECUTING TestCases.EX02 Login DataDriver
+[DEBUG]   2026-06-15 19:30:55.386122 [PID:12736] [4] [ID:12] still running TestCases.EX02 Login DataDriver after 5.0s
+[DEBUG]   2026-06-15 19:30:58.871701 [PID:17500] [5] [ID:13] still running TestCases.EX02 Login DataDriver after 5.0s
+[DEBUG]   2026-06-15 19:30:59.076790 [PID:23004] [1] [ID:9] still running TestCases.EX04 Admin UserManagement.Add and Verify a System User after 15.0s
+[DEBUG]   2026-06-15 19:30:59.922154 [PID:18036] [0] [ID:8] still running TestCases.EX03 Dashboard.Verify Dashboard After Login after 600.0s
+[DEBUG]   2026-06-15 19:31:01.196653 [PID:13956] [2] [ID:10] still running TestCases.EX05 Admin UserTable.Verification of Column Header after 15.0s
+[DEBUG]   2026-06-15 19:31:01.871697 [PID:23948] [3] [ID:11] still running TestCases.EX06 Admin JobTitle.Verification of Adding and Verifying required fields after 15.0s
+[INFO]    2026-06-15 19:31:03.283270 [PID:22132] [2] [ID:6] FAILED TestCases.EX01 Login Resources.Verification of Clicking the 'Forgot your password?' link
+[DEBUG]   2026-06-15 19:31:03.734063 [PID:17472] [6] [ID:14] EXECUTING TestCases.EX02 Login DataDriver
+[DEBUG]   2026-06-15 19:31:05.665273 [PID:12736] [4] [ID:12] still running TestCases.EX02 Login DataDriver after 15.0s
+[DEBUG]   2026-06-15 19:31:09.017834 [PID:17472] [6] [ID:14] still running TestCases.EX02 Login DataDriver after 5.0s
+[DEBUG]   2026-06-15 19:31:09.075194 [PID:17500] [5] [ID:13] still running TestCases.EX02 Login DataDriver after 15.0s
+[DEBUG]   2026-06-15 19:31:14.740651 [PID:23004] [1] [ID:9] still running TestCases.EX04 Admin UserManagement.Add and Verify a System User after 30.0s
+[DEBUG]   2026-06-15 19:31:16.435631 [PID:13956] [2] [ID:10] still running TestCases.EX05 Admin UserTable.Verification of Column Header after 30.0s
+[DEBUG]   2026-06-15 19:31:17.371414 [PID:23948] [3] [ID:11] still running TestCases.EX06 Admin JobTitle.Verification of Adding and Verifying required fields after 30.0s
+[DEBUG]   2026-06-15 19:31:19.203690 [PID:17472] [6] [ID:14] still running TestCases.EX02 Login DataDriver after 15.0s
+[DEBUG]   2026-06-15 19:31:21.167946 [PID:12736] [4] [ID:12] still running TestCases.EX02 Login DataDriver after 30.0s
+[DEBUG]   2026-06-15 19:31:24.210812 [PID:17500] [5] [ID:13] still running TestCases.EX02 Login DataDriver after 30.0s
+[INFO]    2026-06-15 19:31:30.958160 [PID:18036] [0] [ID:8] FAILED TestCases.EX03 Dashboard.Verify Dashboard After Login
+[DEBUG]   2026-06-15 19:31:31.584525 [PID:23292] [7] [ID:15] EXECUTING TestCases.EX02 Login DataDriver
+[DEBUG]   2026-06-15 19:31:34.413451 [PID:17472] [6] [ID:14] still running TestCases.EX02 Login DataDriver after 30.0s
+[DEBUG]   2026-06-15 19:31:35.016927 [PID:23004] [1] [ID:9] still running TestCases.EX04 Admin UserManagement.Add and Verify a System User after 50.0s
+[DEBUG]   2026-06-15 19:31:36.560813 [PID:13956] [2] [ID:10] still running TestCases.EX05 Admin UserTable.Verification of Column Header after 50.0s
+[DEBUG]   2026-06-15 19:31:36.621980 [PID:23292] [7] [ID:15] still running TestCases.EX02 Login DataDriver after 5.0s
+[INFO]    2026-06-15 19:31:37.692370 [PID:23004] [1] [ID:9] FAILED TestCases.EX04 Admin UserManagement.Add and Verify a System User
+[DEBUG]   2026-06-15 19:31:37.752196 [PID:25308] [0] [ID:16] EXECUTING TestCases.EX02 Login DataDriver
+[INFO]    2026-06-15 19:31:37.830955 [PID:23948] [3] [ID:11] FAILED TestCases.EX06 Admin JobTitle.Verification of Adding and Verifying required fields
+[DEBUG]   2026-06-15 19:31:37.909833 [PID:20600] [1] [ID:17] EXECUTING TestCases.EX02 Login DataDriver
+[INFO]    2026-06-15 19:31:38.202975 [PID:17500] [5] [ID:13] Execution failed in TestCases.EX02 Login DataDriver with 1 failing test(s)
+==============================================================================
+TestCases
+==============================================================================
+TestCases.EX02 Login DataDriver :: This is the test case file
+==============================================================================
+Login with the Admin and admin1234                                    | FAIL |
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+------------------------------------------------------------------------------
+TestCases.EX02 Login DataDriver :: This is the test case file         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+TestCases                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\13\output.xml
+
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+[INFO]    2026-06-15 19:31:38.203076 [PID:12736] [4] [ID:12] Execution failed in TestCases.EX02 Login DataDriver with 1 failing test(s)
+==============================================================================
+TestCases
+==============================================================================
+TestCases.EX02 Login DataDriver :: This is the test case file
+==============================================================================
+Login with the Admin1 and admin123                                    | FAIL |
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+------------------------------------------------------------------------------
+TestCases.EX02 Login DataDriver :: This is the test case file         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+TestCases                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\12\output.xml
+
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+[DEBUG]   2026-06-15 19:31:38.383006 [PID:3824] [3] [ID:19] EXECUTING TestCases.EX02 Login DataDriver
+[DEBUG]   2026-06-15 19:31:38.461246 [PID:15004] [2] [ID:18] EXECUTING TestCases.EX02 Login DataDriver
+[INFO]    2026-06-15 19:31:38.535293 [PID:13956] [2] [ID:10] FAILED TestCases.EX05 Admin UserTable.Verification of Column Header
+[INFO]    2026-06-15 19:31:38.589273 [PID:4848] [4] [ID:0] FAILED TestCases.EX01 Login Resources.Verification of Login Page Title
+[INFO]    2026-06-15 19:31:39.075192 [PID:17472] [6] [ID:14] Execution failed in TestCases.EX02 Login DataDriver with 1 failing test(s)
+==============================================================================
+TestCases
+==============================================================================
+TestCases.EX02 Login DataDriver :: This is the test case file
+==============================================================================
+Login with the Admin1 and admin1234                                   | FAIL |
+Setup failed:
+WebDriverException: Message: unknown error: unable to discover open window in chrome
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69758c]
+	msedgedriver!(No symbol) [0x7ff62b7292e8]
+	msedgedriver!(No symbol) [0x7ff62b728b76]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+------------------------------------------------------------------------------
+TestCases.EX02 Login DataDriver :: This is the test case file         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+TestCases                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\14\output.xml
+[DEBUG]   2026-06-15 19:31:42.959180 [PID:25308] [0] [ID:16] still running TestCases.EX02 Login DataDriver after 5.0s
+[DEBUG]   2026-06-15 19:31:43.059943 [PID:20600] [1] [ID:17] still running TestCases.EX02 Login DataDriver after 5.0s
+[DEBUG]   2026-06-15 19:31:43.561409 [PID:3824] [3] [ID:19] still running TestCases.EX02 Login DataDriver after 5.0s
+[DEBUG]   2026-06-15 19:31:43.562879 [PID:15004] [2] [ID:18] still running TestCases.EX02 Login DataDriver after 5.0s
+[INFO]    2026-06-15 19:31:44.632595 [PID:15004] [2] [ID:18] PASSED TestCases.EX02 Login DataDriver in 6.1 seconds
+[INFO]    2026-06-15 19:31:44.656928 [PID:23292] [7] [ID:15] PASSED TestCases.EX02 Login DataDriver in 12.9 seconds
+[INFO]    2026-06-15 19:31:44.668057 [PID:3824] [3] [ID:19] PASSED TestCases.EX02 Login DataDriver in 6.1 seconds
+[INFO]    2026-06-15 19:31:44.691501 [PID:25308] [0] [ID:16] PASSED TestCases.EX02 Login DataDriver in 6.7 seconds
+[INFO]    2026-06-15 19:31:44.739568 [PID:20600] [1] [ID:17] PASSED TestCases.EX02 Login DataDriver in 6.6 seconds
+[INFO]    14 tests, 0 passed, 14 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Users\SURYA\PycharmProjects\Automation\output.xml
+[INFO]    Log:     C:\Users\SURYA\PycharmProjects\Automation\log.html
+[INFO]    Report:  C:\Users\SURYA\PycharmProjects\Automation\report.html
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 1 hour 27 minutes 43.70 seconds
+[INFO]    Elapsed time:  11 minutes 6.36 seconds
+[DEBUG]   Logs flushed successfully.

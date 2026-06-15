@@ -1,0 +1,16 @@
+==============================================================================
+TestCases
+==============================================================================
+TestCases.EX01 Login Resources :: This is the test case file
+==============================================================================
+Verification of Login with empty fields (click Login without typing)  | FAIL |
+Setup failed:
+ReadTimeoutError: HTTPConnectionPool(host='localhost', port=62004): Read timed out. (read timeout=120)
+------------------------------------------------------------------------------
+TestCases.EX01 Login Resources :: This is the test case file          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+TestCases                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\5\output.xml

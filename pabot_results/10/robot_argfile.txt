@@ -1,0 +1,16 @@
+--test TestCases.EX05 Admin UserTable.Verification of Column Header
+--variable CALLER_ID:cc502c2a63e54bf2a654e249a73530a4
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:2
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:10
+--variable PABOTLASTLEVEL:TestCases.EX05 Admin UserTable
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\10
+--consolecolors off
+--consolemarkers off
+TestCases/

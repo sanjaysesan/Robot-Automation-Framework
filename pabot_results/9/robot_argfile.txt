@@ -1,0 +1,16 @@
+--test TestCases.EX04 Admin UserManagement.Add and Verify a System User
+--variable CALLER_ID:b610b3ffe00440c1859ca68096b60c56
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:9
+--variable PABOTLASTLEVEL:TestCases.EX04 Admin UserManagement
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\9
+--consolecolors off
+--consolemarkers off
+TestCases/

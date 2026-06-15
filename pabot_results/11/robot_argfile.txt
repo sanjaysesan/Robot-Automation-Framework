@@ -1,0 +1,16 @@
+--test TestCases.EX06 Admin JobTitle.Verification of Adding and Verifying required fields
+--variable CALLER_ID:504a2e30a8834dc5bdecdfb0d10e90a5
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:3
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:11
+--variable PABOTLASTLEVEL:
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\11
+--consolecolors off
+--consolemarkers off
+TestCases/

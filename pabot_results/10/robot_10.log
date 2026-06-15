@@ -1,0 +1,62 @@
+2026-06-15 19:30:46.697909 ==============================================================================
+2026-06-15 19:30:46.757531 TestCases
+2026-06-15 19:30:46.757571 ==============================================================================
+2026-06-15 19:30:52.283234 TestCases.EX05 Admin UserTable :: This is the Test Case File
+2026-06-15 19:30:52.285014 ==============================================================================
+2026-06-15 19:31:19.004047 [ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+2026-06-15 19:31:19.065758 from unknown error: web view not found
+2026-06-15 19:31:19.127161   (Session info: MicrosoftEdge=149.0.4022.69)
+2026-06-15 19:31:19.290855 Stacktrace:
+2026-06-15 19:31:19.360733 	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+2026-06-15 19:31:19.576558 	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+2026-06-15 19:31:19.736278 	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+2026-06-15 19:31:19.799431 	msedgedriver!(No symbol) [0x7ff62b69835d]
+2026-06-15 19:31:19.861818 	msedgedriver!(No symbol) [0x7ff62b72303e]
+2026-06-15 19:31:19.924131 	msedgedriver!(No symbol) [0x7ff62b73936f]
+2026-06-15 19:31:19.985231 	msedgedriver!(No symbol) [0x7ff62b6f485c]
+2026-06-15 19:31:20.047104 	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+2026-06-15 19:31:20.132414 	msedgedriver!(No symbol) [0x7ff62b6f4683]
+2026-06-15 19:31:20.187735 	msedgedriver!(No symbol) [0x7ff62b942ca1]
+2026-06-15 19:31:20.250505 	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+2026-06-15 19:31:20.311707 	msedgedriver!(No symbol) [0x7ff62b94fe85]
+2026-06-15 19:31:20.372877 	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+2026-06-15 19:31:20.433801 	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+2026-06-15 19:31:20.496534 	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+2026-06-15 19:31:20.558286 	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+2026-06-15 19:31:20.621295 	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+2026-06-15 19:31:20.682962 	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+2026-06-15 19:31:20.745446 	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+2026-06-15 19:31:20.807397 
+2026-06-15 19:31:37.829931 Verification of Column Header                                         | FAIL |
+2026-06-15 19:31:37.853702 Setup failed:
+2026-06-15 19:31:37.853789 NoSuchWindowException: Message: no such window: target window already closed
+2026-06-15 19:31:37.853833 from unknown error: web view not found
+2026-06-15 19:31:37.854029   (Session info: MicrosoftEdge=149.0.4022.69)
+2026-06-15 19:31:37.854085 Stacktrace:
+2026-06-15 19:31:37.854125 	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+2026-06-15 19:31:37.901799 	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+2026-06-15 19:31:37.901843 	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+2026-06-15 19:31:37.901857 	msedgedriver!(No symbol) [0x7ff62b69835d]
+2026-06-15 19:31:37.901868 	msedgedriver!(No symbol) [0x7ff62b72303e]
+2026-06-15 19:31:37.901880 	msedgedriver!(No symbol) [0x7ff62b73936f]
+2026-06-15 19:31:37.901890 	msedgedriver!(No symbol) [0x7ff62b6f485c]
+2026-06-15 19:31:37.901900 	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+2026-06-15 19:31:37.901910 	msedgedriver!(No symbol) [0x7ff62b6f4683]
+2026-06-15 19:31:37.901920 	msedgedriver!(No symbol) [0x7ff62b942ca1]
+2026-06-15 19:31:37.901930 	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+2026-06-15 19:31:37.901940 	msedgedriver!(No symbol) [0x7ff62b94fe85]
+2026-06-15 19:31:37.901949 	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+2026-06-15 19:31:37.901960 	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+2026-06-15 19:31:37.901971 	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+2026-06-15 19:31:37.901981 	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+2026-06-15 19:31:37.901991 	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+2026-06-15 19:31:37.902002 	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+2026-06-15 19:31:37.902012 	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+2026-06-15 19:31:37.902023 ------------------------------------------------------------------------------
+2026-06-15 19:31:37.902035 TestCases.EX05 Admin UserTable :: This is the Test Case File          | FAIL |
+2026-06-15 19:31:37.902046 1 test, 0 passed, 1 failed
+2026-06-15 19:31:37.902056 ==============================================================================
+2026-06-15 19:31:37.902067 TestCases                                                             | FAIL |
+2026-06-15 19:31:37.902078 1 test, 0 passed, 1 failed
+2026-06-15 19:31:37.902088 ==============================================================================
+2026-06-15 19:31:37.902100 Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\10\output.xml

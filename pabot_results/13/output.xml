@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.5 on win32)" generated="2026-06-15T19:30:54.448033" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCases" source="C:\Users\SURYA\PycharmProjects\Automation\TestCases">
+<suite id="s1-s1" name="EX02 Login DataDriver" source="C:\Users\SURYA\PycharmProjects\Automation\TestCases\EX02_Login_DataDriver.robot">
+<test id="s1-s1-t1" name="Login with the Admin and admin1234" line="12">
+<kw name="Open the browser and go to OrangeHRM" owner="CommonKeywords" type="SETUP">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2026-06-15T19:30:55.341616" level="INFO">Creating an instance of the Edge WebDriver.</msg>
+<arg>${browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2026-06-15T19:30:55.333220" elapsed="11.994930"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-06-15T19:31:07.328881" elapsed="1.295567"/>
+</kw>
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>0.5 seconds</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2026-06-15T19:31:08.624725" elapsed="0.000430"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-06-15T19:31:08.625743" level="INFO">Opening url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-06-15T19:31:08.625383" elapsed="13.092452"/>
+</kw>
+<status status="PASS" start="2026-06-15T19:30:55.332585" elapsed="26.385542"/>
+</kw>
+<kw name="Verification of User Login">
+<kw name="wait until element is visible in the page" owner="CommonKeywords">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2026-06-15T19:31:21.723646" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+</msg>
+<msg time="2026-06-15T19:31:21.723948" level="FAIL">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+</msg>
+<arg>${locator}</arg>
+<arg>timeout=25s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-06-15T19:31:21.719789" elapsed="6.609014">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+</status>
+</kw>
+<arg>${username-loc}</arg>
+<status status="FAIL" start="2026-06-15T19:31:21.719441" elapsed="6.609708">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+</status>
+</kw>
+<if>
+<branch type="IF" condition="'${username}' != '${EMPTY}'">
+<kw name="Enter Username" owner="LoginPage">
+<arg>${username}</arg>
+<status status="NOT RUN" start="2026-06-15T19:31:28.329725" elapsed="0.000059"/>
+</kw>
+<status status="NOT RUN" start="2026-06-15T19:31:28.329393" elapsed="0.000463"/>
+</branch>
+<status status="NOT RUN" start="2026-06-15T19:31:28.329333" elapsed="0.000603"/>
+</if>
+<if>
+<branch type="IF" condition="'${password}' != '${EMPTY}'">
+<kw name="Enter Password" owner="LoginPage">
+<arg>${password}</arg>
+<status status="NOT RUN" start="2026-06-15T19:31:28.330301" elapsed="0.000056"/>
+</kw>
+<status status="NOT RUN" start="2026-06-15T19:31:28.330051" elapsed="0.000372"/>
+</branch>
+<status status="NOT RUN" start="2026-06-15T19:31:28.330017" elapsed="0.000470"/>
+</if>
+<if>
+<branch type="IF" condition="'${username}' != '${EMPTY}'">
+<kw name="Click Login Button" owner="LoginPage">
+<status status="NOT RUN" start="2026-06-15T19:31:28.330802" elapsed="0.000056"/>
+</kw>
+<kw name="wait until element is visible in the page" owner="CommonKeywords">
+<arg>${errormessage-loc}</arg>
+<status status="NOT RUN" start="2026-06-15T19:31:28.331080" elapsed="0.000058"/>
+</kw>
+<status status="NOT RUN" start="2026-06-15T19:31:28.330583" elapsed="0.000624"/>
+</branch>
+<branch type="ELSE">
+<kw name="Click Login Button" owner="LoginPage">
+<status status="NOT RUN" start="2026-06-15T19:31:28.331576" elapsed="0.000061"/>
+</kw>
+<status status="NOT RUN" start="2026-06-15T19:31:28.331323" elapsed="0.000379"/>
+</branch>
+<status status="NOT RUN" start="2026-06-15T19:31:28.330554" elapsed="0.001207"/>
+</if>
+<if>
+<branch type="IF" condition="'${username}' == '${EMPTY}'">
+<kw name="verify the 'Required' field validation messages appear" owner="LoginPage">
+<status status="NOT RUN" start="2026-06-15T19:31:28.332274" elapsed="0.000088"/>
+</kw>
+<status status="NOT RUN" start="2026-06-15T19:31:28.331878" elapsed="0.000567"/>
+</branch>
+<branch type="ELSE">
+<kw name="Verify Error" owner="LoginPage">
+<status status="NOT RUN" start="2026-06-15T19:31:28.332923" elapsed="0.000133"/>
+</kw>
+<status status="NOT RUN" start="2026-06-15T19:31:28.332518" elapsed="0.000689"/>
+</branch>
+<status status="NOT RUN" start="2026-06-15T19:31:28.331841" elapsed="0.001454"/>
+</if>
+<arg>username=Admin</arg>
+<arg>password=admin1234</arg>
+<status status="FAIL" start="2026-06-15T19:31:21.718830" elapsed="6.614836">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+</status>
+</kw>
+<kw name="Closing the Browser Session" owner="CommonKeywords" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-06-15T19:31:28.334704" elapsed="9.132885"/>
+</kw>
+<status status="PASS" start="2026-06-15T19:31:28.334332" elapsed="9.133381"/>
+</kw>
+<status status="FAIL" start="2026-06-15T19:30:55.331343" elapsed="42.136455">NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+</status>
+</test>
+<doc>This is the test case file</doc>
+<status status="FAIL" start="2026-06-15T19:30:54.530218" elapsed="42.938060"/>
+</suite>
+<status status="FAIL" start="2026-06-15T19:30:54.449659" elapsed="43.019175"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestCases" id="s1" pass="0" fail="1" skip="0">TestCases</stat>
+<stat name="EX02 Login DataDriver" id="s1-s1" pass="0" fail="1" skip="0">TestCases.EX02 Login DataDriver</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-06-15T19:31:21.723646" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+</msg>
+</errors>
+</robot>

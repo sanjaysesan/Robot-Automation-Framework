@@ -1,0 +1,4 @@
+[ WARN ] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot
+[ WARN ] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot
+[ WARN ] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61999): Read timed out. (read timeout=120)")': /session/a2245996c383dc794d7c9c5e2f2d513a/screenshot
+[ WARN ] Keyword 'Capture Page Screenshot' could not be run on failure: 'NoneType' object has no attribute 'encode'

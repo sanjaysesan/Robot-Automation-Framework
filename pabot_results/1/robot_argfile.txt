@@ -1,0 +1,16 @@
+--test TestCases.EX01 Login Resources.Verification of Login with Valid credentials
+--variable CALLER_ID:5280a32ab9a245818d6965aefcc88bdc
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:8
+--variable PABOTQUEUEINDEX:1
+--variable PABOTLASTLEVEL:TestCases.EX01 Login Resources.Verification of Login with Valid credentials
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--outputdir .\pabot_results\1
+--consolecolors off
+--consolemarkers off
+TestCases/

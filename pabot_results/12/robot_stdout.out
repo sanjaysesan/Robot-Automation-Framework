@@ -1,0 +1,37 @@
+==============================================================================
+TestCases
+==============================================================================
+TestCases.EX02 Login DataDriver :: This is the test case file
+==============================================================================
+Login with the Admin1 and admin123                                    | FAIL |
+NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=149.0.4022.69)
+Stacktrace:
+	msedgedriver!GetHandleVerifier [0x7ff62bd06925+e305]
+	msedgedriver!GetHandleVerifier [0x7ff62bd06984+e364]
+	msedgedriver!GetHandleVerifier [0x7ff62c3888fa+6902da]
+	msedgedriver!(No symbol) [0x7ff62b69835d]
+	msedgedriver!(No symbol) [0x7ff62b72303e]
+	msedgedriver!(No symbol) [0x7ff62b73936f]
+	msedgedriver!(No symbol) [0x7ff62b6f485c]
+	msedgedriver!(No symbol) [0x7ff62b6f3ab6]
+	msedgedriver!(No symbol) [0x7ff62b6f4683]
+	msedgedriver!(No symbol) [0x7ff62b942ca1]
+	msedgedriver!(No symbol) [0x7ff62b93f3f8]
+	msedgedriver!(No symbol) [0x7ff62b94fe85]
+	msedgedriver!GetHandleVerifier [0x7ff62bd228d1+2a2b1]
+	msedgedriver!GetHandleVerifier [0x7ff62bd2b676+33056]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e3e4+15dc4]
+	msedgedriver!GetHandleVerifier [0x7ff62bd0e505+15ee5]
+	msedgedriver!GetHandleVerifier [0x7ff62bcfab13+24f3]
+	KERNEL32!BaseThreadInitThunk [0x7ff86926e957+17]
+	ntdll!RtlUserThreadStart [0x7ff86a607c1c+2c]
+------------------------------------------------------------------------------
+TestCases.EX02 Login DataDriver :: This is the test case file         | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+TestCases                                                             | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Users\SURYA\PycharmProjects\Automation\pabot_results\12\output.xml

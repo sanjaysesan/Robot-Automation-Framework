@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.5 on win32)" generated="2026-06-15T19:31:42.710873" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCases" source="C:\Users\SURYA\PycharmProjects\Automation\TestCases">
+<suite id="s1-s1" name="EX02 Login DataDriver" source="C:\Users\SURYA\PycharmProjects\Automation\TestCases\EX02_Login_DataDriver.robot">
+<doc>This is the test case file</doc>
+<status status="SKIP" start="2026-06-15T19:31:43.150181" elapsed="0.735223"/>
+</suite>
+<status status="SKIP" start="2026-06-15T19:31:42.713442" elapsed="1.173193"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestCases" id="s1" pass="0" fail="0" skip="0">TestCases</stat>
+<stat name="EX02 Login DataDriver" id="s1-s1" pass="0" fail="0" skip="0">TestCases.EX02 Login DataDriver</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
