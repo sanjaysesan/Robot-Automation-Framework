@@ -7,8 +7,7 @@ Resource   ../PageObjects/LoginPage.robot
 
 *** Keywords ***
 Open the browser and go to OrangeHRM
-   ${options}=    Evaluate    sys.modules['selenium.webdriver'].EdgeOptions()    sysgit
-   Create WebDriver    ${browser}    options=${options}
+   Create WebDriver    ${browser}
    Maximize Browser Window
    Set Selenium Speed    0.5 seconds
    Go To           ${url}
@@ -21,8 +20,7 @@ wait until element is visible in the page
     Wait Until Element is Visible            ${locator}        timeout=25s
 
 Open the OrangeHRM application and login with valid credentials
-    ${options}=    Evaluate    sys.modules['selenium.webdriver'].EdgeOptions()    sys
-    Create Webdriver    ${browser}        options=${options}
+    Create Webdriver    ${browser}
     Maximize Browser Window
     Set Selenium Speed    0.5 seconds
     Go To    ${url}
