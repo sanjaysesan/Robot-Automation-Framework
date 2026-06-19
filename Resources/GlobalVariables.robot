@@ -9,6 +9,6 @@ ${validusername}    Admin
 ${Invalidusername}       Admin12345
 ${validpwd}    admin123
 ${Invalidpwd}    admin1234
-${user-username}    kane williamson
+${user-username}    GAHA
 ${user-password}    Surya123456
-${jobtitle-name}        Associate director
+${jobtitle-name}        GAHA
